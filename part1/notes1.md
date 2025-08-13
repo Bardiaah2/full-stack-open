@@ -23,3 +23,17 @@ have it's first letter capatilized and it can
     3. It can only return one root element
 
 # b) JavaScript
+
+...OBJECT: this syntax copies the OBJECT and inserts it, this can be used when handling events, since for updating
+states, we don't want to directly change the object, but we want to make a new one, and this can help us copy the
+object easier and modify it that way
+
+## Web programmers oath
+
+Programming is hard, that is why I will use all the possible means to make it easier
+
+- I will have my browser developer console open all the time
+- I progress with small steps
+- I will write lots of console.log statements to make sure I understand how the code behaves and to help pinpointing problems
+- If my code does not work, I will not write more code. Instead I will start deleting the code until it works or just return to a state when everything was still working
+- When I ask for help in the course Discord channel or elsewhere I formulate my questions properly, see here how to ask for help
