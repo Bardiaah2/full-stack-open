@@ -20,6 +20,8 @@ export default defineConfig({
         objects: resolve(root, 'part1/objects/index.html'),
         unicafe: resolve(root, 'part1/unicafe/index.html'),
         anecdotes: resolve(root, 'part1/anecdotes/index.html'),
+        courseinfo: resolve(root, 'part2/courseinfo/index.html'),
+        phonebook: resolve(root, 'part2/phonebook/index.html'),
       },
     },
   },
