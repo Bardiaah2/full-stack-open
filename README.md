@@ -9,3 +9,5 @@ you can run the following line to start the local page including examples and ex
 ```bash
 $ cd showcase/ ; npm install ; npm run build ; npm run dev
 ```
+
+public url: https://full-stack-open-8jg0.onrender.com
