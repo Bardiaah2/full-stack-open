@@ -8,6 +8,7 @@ app.use(express.json())
 
 morgan.token('body', (req, res) => JSON.stringify(req.body))
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :body'))
+app.use(express.static('dist'))
 
 let persons = [
     { 
@@ -102,7 +103,7 @@ app.post('/api/persons', (req, res) => {
     res.json(persons)    
 })
 
-const PORT = 3002
+const PORT = process.env.PORT || 3002
 app.listen(PORT)
 console.log(`Server running on port ${PORT}`)
 console.log(`go to http://localhost:${PORT}`)
