@@ -26,8 +26,8 @@ const PersonForm = ({ nameValue, numberValue, nameOnChnage, numberOnChange , han
 const Persons = ({ shown, handleRemove }) => {
   return shown.map( (person) => {
     return (
-      <div key={person.name}>
-        <p key={person.name}>
+      <div key={person.id}>
+        <p key={person.id}>
           {person.name} {person.number}
           <button key={person.name} onClick={() => handleRemove(person)}>delete</button>
         </p>
